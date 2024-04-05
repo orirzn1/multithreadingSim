@@ -1,0 +1,107 @@
+L9
+S6
+O12
+N8
+
+T0
+I@0x00000000
+STORE $6, $6, 0x4
+SUBI $5, $3, 0x4
+SUB $2, $5, $5
+LOAD $6, $4, 0x4
+SUB $5, $1, $7
+LOAD $5, $6, $4
+ADD $4, $2, $0
+SUB $4, $3, $1
+ADDI $2, $1, 0x2
+HALT $0
+
+T1
+I@0x00000000
+ADD $1, $5, $5
+LOAD $7, $0, $1
+ADD $5, $0, $6
+STORE $1, $4, $5
+ADD $3, $1, $0
+ADD $7, $4, $1
+ADDI $1, $2, 0x2
+HALT $0
+
+T2
+I@0x00000000
+ADD $2, $2, $3
+LOAD $6, $1, 0x2
+SUBI $4, $6, 0x4
+SUBI $2, $7, 0x3
+LOAD $5, $1, 0x0
+LOAD $0, $5, 0x1
+SUBI $1, $4, 0x3
+SUBI $7, $3, 0x2
+ADDI $1, $2, 0x2
+SUBI $5, $1, 0x3
+HALT $0
+
+T3
+I@0x00000000
+LOAD $5, $2, 0x1
+SUBI $1, $1, 0x2
+SUBI $2, $4, 0x1
+ADDI $2, $4, 0x4
+LOAD $6, $5, $6
+ADDI $6, $7, 0x3
+STORE $1, $0, $4
+ADD $0, $2, $0
+HALT $0
+
+T4
+I@0x00000000
+ADD $2, $7, $3
+ADDI $6, $3, 0x3
+LOAD $0, $1, 0x0
+SUBI $6, $5, 0x1
+SUB $7, $5, $5
+SUBI $5, $4, 0x2
+ADDI $4, $2, 0x3
+HALT $0
+
+T5
+I@0x00000000
+ADD $2, $1, $7
+STORE $4, $3, 0x4
+SUB $3, $6, $7
+ADDI $4, $7, 0x2
+STORE $7, $3, $2
+SUBI $0, $6, 0x2
+ADDI $2, $5, 0x4
+LOAD $1, $5, 0x4
+HALT $0
+
+T6
+I@0x00000000
+SUB $0, $6, $1
+STORE $6, $0, 0x2
+ADDI $1, $5, 0x1
+LOAD $1, $0, 0x2
+SUBI $1, $4, 0x2
+HALT $0
+
+T7
+I@0x00000000
+SUB $6, $2, $2
+STORE $0, $4, 0x2
+SUB $6, $2, $4
+SUBI $3, $4, 0x4
+ADDI $3, $3, 0x4
+HALT $0
+
+D@0x0
+0x1
+0x5
+0xA
+0x9
+0x2
+0x7
+0x7
+0x9
+0x1
+0xA

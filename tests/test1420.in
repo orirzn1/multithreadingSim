@@ -1,0 +1,160 @@
+L13
+S5
+O11
+N13
+
+T0
+I@0x00000000
+ADD $3, $5, $5
+STORE $4, $4, 0x3
+STORE $3, $3, $1
+STORE $1, $4, 0x3
+STORE $6, $3, $4
+STORE $2, $7, 0x1
+HALT $0
+
+T1
+I@0x00000000
+LOAD $2, $4, $5
+ADD $4, $5, $0
+SUBI $5, $1, 0x1
+LOAD $1, $5, 0x3
+LOAD $2, $1, $2
+SUB $7, $5, $3
+SUB $7, $6, $3
+ADDI $7, $7, 0x3
+ADD $1, $5, $0
+HALT $0
+
+T2
+I@0x00000000
+ADDI $7, $5, 0x3
+ADD $7, $3, $0
+ADD $1, $6, $6
+ADD $7, $5, $0
+ADDI $7, $5, 0x4
+SUBI $0, $4, 0x3
+HALT $0
+
+T3
+I@0x00000000
+ADD $0, $2, $1
+LOAD $2, $4, $7
+LOAD $5, $4, $4
+STORE $5, $7, $7
+STORE $2, $1, $5
+HALT $0
+
+T4
+I@0x00000000
+SUB $6, $1, $0
+SUB $3, $6, $3
+ADD $0, $6, $4
+ADD $3, $0, $5
+LOAD $4, $7, $0
+ADD $4, $5, $7
+SUBI $6, $5, 0x3
+HALT $0
+
+T5
+I@0x00000000
+STORE $1, $4, $4
+ADDI $6, $4, 0x2
+STORE $1, $7, $7
+SUB $0, $5, $6
+ADDI $6, $6, 0x3
+SUB $5, $3, $7
+ADD $7, $0, $0
+ADD $4, $7, $4
+STORE $7, $0, 0x1
+HALT $0
+
+T6
+I@0x00000000
+LOAD $6, $0, $0
+SUB $6, $0, $1
+STORE $1, $4, 0x4
+SUBI $2, $6, 0x1
+LOAD $0, $5, $1
+SUB $6, $3, $4
+SUBI $2, $2, 0x3
+SUB $6, $4, $2
+HALT $0
+
+T7
+I@0x00000000
+ADD $0, $3, $2
+SUBI $5, $4, 0x4
+SUB $4, $1, $2
+STORE $5, $2, 0x4
+HALT $0
+
+T8
+I@0x00000000
+STORE $3, $2, 0x1
+ADDI $6, $6, 0x4
+STORE $0, $2, 0x2
+SUBI $7, $4, 0x4
+ADDI $7, $2, 0x3
+STORE $0, $2, 0x1
+STORE $6, $0, $3
+ADDI $4, $7, 0x2
+HALT $0
+
+T9
+I@0x00000000
+SUB $2, $1, $2
+ADDI $2, $7, 0x3
+LOAD $1, $4, 0x3
+SUBI $7, $0, 0x2
+ADDI $0, $7, 0x2
+SUBI $1, $5, 0x4
+HALT $0
+
+T10
+I@0x00000000
+SUB $3, $4, $0
+ADDI $4, $4, 0x1
+LOAD $5, $4, 0x0
+SUBI $7, $5, 0x2
+ADD $6, $3, $0
+STORE $0, $3, 0x4
+HALT $0
+
+T11
+I@0x00000000
+ADDI $4, $1, 0x3
+ADDI $7, $6, 0x3
+ADD $7, $3, $7
+SUBI $4, $2, 0x4
+STORE $5, $4, 0x3
+SUB $0, $7, $3
+ADDI $2, $0, 0x2
+SUBI $2, $4, 0x1
+ADDI $6, $0, 0x2
+LOAD $7, $7, $5
+HALT $0
+
+T12
+I@0x00000000
+LOAD $7, $1, 0x2
+ADD $7, $2, $4
+ADD $6, $3, $6
+SUBI $7, $6, 0x2
+STORE $5, $5, $1
+SUB $0, $0, $6
+STORE $7, $6, $3
+ADD $7, $4, $5
+SUBI $3, $7, 0x3
+HALT $0
+
+D@0x0
+0x4
+0x1
+0x6
+0x1
+0x4
+0x1
+0xA
+0xA
+0x6

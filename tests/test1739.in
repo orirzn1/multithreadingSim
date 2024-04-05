@@ -1,0 +1,176 @@
+L11
+S8
+O15
+N15
+
+T0
+I@0x00000000
+SUBI $1, $7, 0x1
+ADDI $5, $4, 0x1
+SUBI $6, $3, 0x4
+ADDI $6, $1, 0x3
+LOAD $0, $2, $5
+SUBI $4, $4, 0x3
+ADDI $5, $2, 0x3
+STORE $4, $1, 0x2
+HALT $0
+
+T1
+I@0x00000000
+ADD $0, $2, $7
+SUB $1, $3, $4
+STORE $3, $1, $0
+LOAD $7, $5, 0x1
+SUB $3, $6, $4
+STORE $0, $4, $5
+ADD $7, $2, $4
+SUBI $1, $6, 0x1
+HALT $0
+
+T2
+I@0x00000000
+SUBI $6, $5, 0x3
+LOAD $6, $4, $2
+SUB $7, $4, $5
+ADD $6, $6, $7
+ADD $0, $7, $0
+STORE $0, $5, $6
+SUBI $0, $3, 0x3
+HALT $0
+
+T3
+I@0x00000000
+SUB $2, $2, $5
+ADDI $4, $4, 0x2
+SUB $3, $6, $3
+ADDI $5, $7, 0x1
+ADDI $6, $1, 0x2
+HALT $0
+
+T4
+I@0x00000000
+STORE $3, $2, 0x3
+ADD $2, $0, $0
+STORE $1, $4, 0x0
+LOAD $4, $7, $2
+ADD $1, $5, $4
+SUBI $2, $4, 0x1
+LOAD $4, $1, $7
+HALT $0
+
+T5
+I@0x00000000
+SUBI $7, $1, 0x3
+SUBI $2, $0, 0x3
+STORE $2, $6, $0
+STORE $1, $3, $3
+LOAD $1, $3, 0x0
+SUBI $0, $6, 0x4
+SUBI $7, $7, 0x2
+HALT $0
+
+T6
+I@0x00000000
+LOAD $6, $7, $0
+ADDI $4, $3, 0x2
+LOAD $3, $3, $4
+SUBI $3, $3, 0x4
+SUB $1, $1, $2
+SUB $6, $0, $1
+SUB $1, $0, $4
+ADDI $1, $3, 0x3
+ADD $7, $7, $2
+HALT $0
+
+T7
+I@0x00000000
+LOAD $5, $3, 0x3
+SUB $0, $7, $3
+ADD $6, $0, $6
+ADDI $4, $6, 0x2
+HALT $0
+
+T8
+I@0x00000000
+SUB $3, $4, $5
+LOAD $5, $6, 0x2
+ADD $7, $0, $2
+STORE $1, $0, $3
+SUB $6, $7, $1
+STORE $2, $6, 0x3
+ADDI $2, $2, 0x4
+SUB $2, $2, $0
+HALT $0
+
+T9
+I@0x00000000
+SUB $1, $2, $3
+SUBI $1, $0, 0x3
+ADDI $4, $2, 0x4
+STORE $4, $4, 0x0
+HALT $0
+
+T10
+I@0x00000000
+LOAD $1, $6, 0x1
+ADDI $2, $7, 0x2
+ADDI $3, $5, 0x4
+ADD $3, $6, $2
+SUBI $5, $7, 0x2
+ADDI $3, $1, 0x2
+SUB $1, $5, $7
+LOAD $7, $2, 0x0
+SUBI $0, $4, 0x3
+HALT $0
+
+T11
+I@0x00000000
+ADD $0, $0, $6
+ADDI $0, $5, 0x3
+ADDI $3, $4, 0x1
+SUBI $2, $4, 0x3
+ADD $6, $3, $7
+HALT $0
+
+T12
+I@0x00000000
+LOAD $2, $1, 0x1
+SUB $5, $7, $4
+LOAD $4, $1, 0x0
+SUBI $1, $0, 0x2
+LOAD $2, $0, $6
+STORE $6, $6, $7
+HALT $0
+
+T13
+I@0x00000000
+ADD $1, $4, $4
+STORE $3, $7, $5
+SUB $4, $4, $1
+STORE $4, $1, $1
+ADDI $4, $7, 0x1
+HALT $0
+
+T14
+I@0x00000000
+ADD $5, $0, $4
+SUB $0, $6, $6
+SUB $0, $4, $3
+ADDI $6, $0, 0x1
+STORE $5, $6, 0x3
+STORE $1, $6, $6
+STORE $3, $2, 0x3
+ADDI $1, $5, 0x2
+STORE $6, $3, 0x3
+HALT $0
+
+D@0x0
+0x3
+0x8
+0x6
+0x3
+0x8
+0x3
+0x7
+0xA
+0x8
