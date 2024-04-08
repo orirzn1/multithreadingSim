@@ -108,7 +108,7 @@ private:
     double numInstrTot;
 
 public:
-    explicit core(int numThreads, int storeLat, int loadlat) : numThreads(numThreads), storeLat(storeLat), loadLat(loadlat)
+    explicit core(int numThreads, int storeLat, int loadlat) : numThreads(numThreads), storeLat(storeLat), loadLat(loadlat),  numCyclesTot(0), numInstrTot(0), currentThread(0)
     {
         threads.reserve(numThreads);
         for (int i = 0; i < numThreads; i++)
